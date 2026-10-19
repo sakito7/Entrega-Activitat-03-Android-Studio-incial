@@ -26,7 +26,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="B & O BMI CALCULATOR"
+                android:text="B &amp; O BMI CALCULATOR"
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="18sp"
@@ -169,8 +169,8 @@
                 android:id="@+id/slider"
                 android:layout_width="match_parent"
                 android:layout_height="80sp"
-                android:valueFrom="40"
-                android:valueTo="96"
+                android:valueFrom="50"
+                android:valueTo="100"
                 android:value="73"
                 android:stepSize="1" />
 
@@ -195,7 +195,6 @@
             android:gravity="center">
 
             <TextView
-                style="?android:attr/buttonBarStyle"
                 android:layout_width="match_parent"
                 android:layout_height="30sp"
                 android:text="WEIGHT"
@@ -205,7 +204,6 @@
 
             <TextView
                 android:id="@+id/textWeight"
-                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="40sp"
                 android:text="170"
@@ -214,7 +212,6 @@
                 android:textColor="@color/white" />
 
             <LinearLayout
-                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="75sp"
                 android:orientation="horizontal"
@@ -265,7 +262,6 @@
             android:gravity="center">
 
             <TextView
-                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="30sp"
                 android:text="AGE"
@@ -275,7 +271,6 @@
 
             <TextView
                 android:id="@+id/textAge"
-                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="40sp"
                 android:text="18"
@@ -284,7 +279,6 @@
                 android:textColor="@color/white" />
 
             <LinearLayout
-                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="match_parent"
                 android:layout_height="75sp"
                 android:orientation="horizontal"
